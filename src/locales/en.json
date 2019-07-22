@@ -1,3 +1,10 @@
 {
-  "message": "hello i18n !!"
+  "home": {
+    "message": "Welcome to Your Vue.js App",
+    "guideTxt": "For a guide and recipes on how to configure / customize this project,{break} check out the {action}",
+    "guideLink": "vue-cli documentation."
+  },
+  "about": {
+    "message": "This is an about page"
+  }
 }
