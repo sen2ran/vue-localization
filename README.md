@@ -19,4 +19,5 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/)
-see [Vue I18n](https://kazupon.github.io/vue-i18n/).
+### Vue I18n
+see [Reference](https://kazupon.github.io/vue-i18n/).
