@@ -7,6 +7,7 @@ import FlagIcon from 'vue-flag-icon'
 
 
 
+
 Vue.config.productionTip = false
 
 Vue.use(FlagIcon)

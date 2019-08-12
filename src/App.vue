@@ -4,18 +4,19 @@
       <a @click="setLocalizationFn('en')">
         <flag iso="us" />
       </a>
-      <br>
+      <br />
       <a @click="setLocalizationFn('ru')">
         <flag iso="ru" />
       </a>
-      <br>
+      <br />
       <a @click="setLocalizationFn('lk')">
         <flag iso="lk" />
       </a>
     </div>
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/qr">Qr Scanner</router-link>
     </div>
     <router-view />
   </div>
@@ -26,7 +27,7 @@
 export default {
   methods: {
     setLocalizationFn(val) {
-     this.$i18n.locale = val
+      this.$i18n.locale = val;
     }
   }
 };
